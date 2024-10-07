@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+// Function declaration
+double yongl(double a, double b);
+
+int main() {
+    double result = yongl(16.1, 1.16);
+    printf("The result is: %.2f\n", result);
+    return 0;
+}
+
+// Function definition
+double yongl(double a, double b) {
+    return (a + b) / 2;
+}
